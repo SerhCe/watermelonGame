@@ -4,7 +4,7 @@ let extraScore = 1;
 
 // 无敌模式：true 改为 false
 // Invincible mode: true or false
-let wuDi = true;
+let wuDi = false;
 
 // First fruit: change the number to 0-10, 0 for grapes, 9 for half a watermelon.
 let firstFruit = 0;
@@ -32,7 +32,7 @@ let fruitSlowDown = false;
 
 // 点击右上方图标更换水果：false 改为 true 即可
 // Click on the icon in the upper right to change the fruit: false or true
-let clickChangeFruit = true;
+let clickChangeFruit = false;
 
 // 广告链接：false 或为空字符串表示不会跳转到广告
 // Advertisement link: false or empty string means it will not jump to the advertisement
