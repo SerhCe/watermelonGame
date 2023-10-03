@@ -1,17 +1,16 @@
-/**
- * 声明，本项目仅帮助大家学习技术及娱乐，切勿将修改后的网站大规模传播及商用，以避免侵权！
- */
 
-// 额外分数：修改数字
+// Extra points: modifying numbers
 let extraScore = 1;
 
 // 无敌模式：true 改为 false
+// Invincible mode: true or false
 let wuDi = true;
 
-// 第一个水果：修改数字为 0-10, 0 为葡萄，9 为半个西瓜
+// First fruit: change the number to 0-10, 0 for grapes, 9 for half a watermelon.
 let firstFruit = 0;
 
 // 水果合成反转：false 改为 true
+//Fruit synthesis reversed: false or true
 let reverseLevelUp = false;
 
 // 指定生成的水果：默认值: 不开启反转 0-5 开启反转 6-11，修改对应数字即可控制随机生成的水果范围
@@ -32,14 +31,16 @@ let fruitQTan = false;
 let fruitSlowDown = false;
 
 // 点击右上方图标更换水果：false 改为 true 即可
+// Click on the icon in the upper right to change the fruit: false or true
 let clickChangeFruit = true;
 
 // 广告链接：false 或为空字符串表示不会跳转到广告
-let adLink = 'https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/yupi_wechat.png';
+// Advertisement link: false or empty string means it will not jump to the advertisement
+let adLink = false;
 
-// 修改网页标题：将 "合成大西瓜" 进行替换
-document.getElementsByTagName("title")[0].innerText = '合成大西瓜';
+// Modify the title of the page
+document.getElementsByTagName("title")[0].innerText = 'Enna Watermelon Game';
 
-// 开启选分弹窗：将 false 改为 true
+// Enable the opt-in popup: change false to true
 let selectModal = false;
 
