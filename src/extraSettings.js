@@ -43,4 +43,3 @@ document.getElementsByTagName("title")[0].innerText = 'Enna Watermelon Game';
 
 // Enable the opt-in popup: change false to true
 let selectModal = false;
-
